@@ -2,6 +2,9 @@
 
 namespace Ejercicio04Unidad07.Models.DAL
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class ClsListados
     {
         public static List<ClsPesona> ObtenerPersonas()
