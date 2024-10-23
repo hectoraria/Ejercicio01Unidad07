@@ -2,7 +2,15 @@
 {
     public class ClsDepartamento
     {
-        int idDepartamento { get; set; }
-        string nombre { get; set; }
+        #region propiedades 
+        public string NombreDepartamento { get; set; }
+        public int IdDepartamento { get; }
+        #endregion
+
+        public ClsDepartamento(string nombre, int idDepartamento)
+        {
+            NombreDepartamento = nombre;
+            IdDepartamento = idDepartamento;
+        }
     }
 }

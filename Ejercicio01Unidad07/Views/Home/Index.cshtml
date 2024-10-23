@@ -1,9 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@model Ejercicio01Unidad07.Models.ClsPersona
 <div class="text-center">
     <h2>Pagina Principal</h2>
     <p>Hola @ViewData["Nombre"]</p>
+    <p>La hora es: @ViewBag.hora</p>
+
+    <p>Perfil</p>
+    <p>Nombre: @Model.nombre</p>
+    <p>Apellidos: @Model.apellidos</p>
+    <p>FechaNacimiento: @Model.direccion</p>
+    <p>Telefono: @Model.telefono</p>
+    
    
 </div>
